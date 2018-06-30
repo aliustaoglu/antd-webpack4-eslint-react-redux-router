@@ -1,0 +1,59 @@
+{
+  "name": "surf.repair",
+  "version": "0.0.1",
+  "description": "Surf Repair front end",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://git-codecommit.us-east-1.amazonaws.com/v1/repos/surf.repair.frontend"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --mode production",
+    "start": "set BABEL_ENV=development&& webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "author": "Cuneyt Aliustaoglu",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/enzyme": "^3.1.11",
+    "@types/eslint": "^4.16.2",
+    "@types/jest": "^23.1.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-import": "^1.8.0",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-import-resolver-webpack": "^0.10.1",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.10.0",
+    "jest": "^23.1.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "react-hot-loader": "^4.3.3",
+    "redbox-react": "^1.6.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "antd": "^3.6.4",
+    "history": "^4.7.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^4.0.8",
+    "redux": "^4.0.0",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0"
+  }
+}
